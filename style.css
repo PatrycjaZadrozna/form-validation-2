@@ -1,0 +1,97 @@
+#contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    min-height: 60vh;
+    background: palevioletred;
+    padding: 20px;
+    margin-top: 30px;
+   }
+
+   .mainContainer{
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgb(0, 0, 0.5);
+    border-radius: 5px;
+    padding: 10px 40px;
+   }
+
+   .formTitle{
+    border-radius: 20px;
+    border-bottom: 1px solid #f0f0f0;
+    background-color: #f7f7f7;
+    padding: 20px;
+  }
+
+   .form{
+     width: 100%;
+     padding: 20px 50px 20px 0;
+     margin: 10px 60px 10px 0;
+   }
+
+   .singleContainer{
+     margin-bottom: 10px;
+    padding-bottom:  20px;
+    position: relative;
+   }
+
+   .singleContainer label{
+     display: inline-block;
+     margin-bottom: 5px;
+   }
+
+   .singleContainer input{
+    display: block;
+    padding: 10px;
+     border: 2px solid #f0f0f0;
+     border-radius: 4px;
+     width: 100%;
+     font-size: 14px;
+   }
+
+   .singleContainer.success input{
+     border-color:green;
+   }
+
+   .singleContainer.error input{
+    border-color: red;
+  }
+
+   .singleContainer i{
+     position: absolute;
+     top: 40px;
+     right: 10px;
+     visibility: hidden;
+   }
+
+    .singleContainer.success i.fa-check-circle{
+     color:green ;
+     visibility: visible;
+   }
+
+   .singleContainer.error i.fa-exclamation-circle{
+    color:red ;
+    visibility: visible;
+  }
+
+   .singleContainer small{
+     position: absolute;
+     bottom: 0;
+     left: 0;
+     visibility: hidden;
+   }
+
+   .singleContainer.error small{
+     color: red;
+     visibility: visible;
+   }
+
+   .form button{
+     display: block;
+     width: 100%;
+     background-color: #03a9f4;
+     padding: 10px;
+     font-size: 14px;
+     border-radius: 4px;
+     color: white;
+   }
